@@ -26,7 +26,7 @@ public class UserEntity {
         }
     }
 
-    @Id()
+    @Id
     private UUID userId;
     private String userName;
     private String profileImageUrl;
