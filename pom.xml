@@ -14,7 +14,7 @@
 	<name>tripadvisor</name>
 	<description>Trip Advisor Application</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>11</java.version>
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
 	</properties>
 	<dependencies>
@@ -82,6 +82,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+<!--				<version>3.6.3</version> &lt;!&ndash; Update to the desired version &ndash;&gt;-->
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
